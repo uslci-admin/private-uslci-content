@@ -17,6 +17,116 @@ In the Summer Quarter of 2024, the Electricity Baseline repository from the Nati
 
 | **Release** | **File Type** | **Change Type** | **File Name** | **UUID** | **Description** |
 | --- | --- | --- | --- | --- | --- |
+| Release  | File Type | Change Type | File Name | UUID | Description |
+|---|---|---|---|---|---|
+| FY24.Q4.01 | Processes | Edit | Various | Various | Fixed broken exchange for 'Electricity, natural gas, at power plant'. |
+| FY24.Q4.01 | Actors | Edit | Various | Various | Consolidated duplicate actors. |
+| FY24.Q4.01 | Process | Edit | Electricity, natural   gas, at power plant        | fa379f16-c09a-4e70-8595-45c69162215c | Changed reference unit from 3.6 MJ to 1 kWH for consistency with other   electricity processes |
+| FY24.Q4.01 | Process | Delete | Various | Various | Deleted old electricity flows and processes. |
+| FY24.Q4.01 | Process | Edit | Acetic acid, at plant        | e4a61018-9f98-3049-95c1-33b1acaa904e | Changed allocation values. |
+| FY24.Q4.01 | Flow | Edit | Natural gas, combusted   in industrial equipment |                                 d0da796c-bf22-435f-a8f4-f980bebc28ff                                          | Removed location, changed name, and corrected flow properties.  |
+| FY24.Q4.01 | Flow | Edit | Acetic acid, at plant        |             2c696e73-bd01-3f7b-a6c5-a56dee44d66e          | Removed location. |
+| FY24.Q4.01 | Flows & Categories | Edit | Various | Various | Elementary flows folder capitalization change |
+| FY24.Q4.01 | Process | Edit | Paper, mechanical,   uncoated, average production, at mill        | 285cfc08-fc23-3bfc-b304-1bb4a60d2f8a | Changed paper, uncoated allocation to economic to avoid mult-output   issues |
+| FY24.Q4.01 | Process | Edit | Injection molding, rigid   polypropylene part, at plant        | 89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870 | Converted product outputs to waste outputs. |
+| FY24.Q4.01 | Process | Edit | Injection molding, rigid   LLDPE part, at plant        | 9fe670f2-0846-377e-8b15-db170d54ac32 | Converted product outputs to waste outputs. |
+| FY24.Q4.01 | Process | Edit | Open molding, rigid   composites part, at plant        | ddb25171-80c6-3e14-879b-4371febbc0ad | Converted product outputs to waste outputs. |
+| FY24.Q4.01 | Process | Edit | Injection molding, rigid   polypropylene part, at plant | 89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870 | Added uncertainties to waste outputs. |
+| FY24.Q4.01 | Process | Edit | Injection molding, rigid   LLDPE part, at plant        | 9fe670f2-0846-377e-8b15-db170d54ac32 | Added uncertainties to waste outputs. |
+| FY24.Q4.01 | Process | Edit | Open mold casting, rigid   composites part, at plant        | 73b0cd92-2167-3036-b1bc-df05a09828fc | Converted product outputs to waste outputs. |
+| FY24.Q4.01 | Process | Add | Compression molding,   rigid composites part, at plant        | ab334aaf-bfe1-3785-91c5-3de1dc34c01b | Converted   product outputs to waste outputs. |
+| FY24.Q4.01 | Process | Edit | Thermoforming, rigid   polypropylene part, at plant        | 18c37a18-0ddd-3944-b9b1-458410215233 | Edited   allocation values. |
+| FY24.Q4.01 | Process | Edit | Cotton, whole plant, at   field        | 3ffdd525-d623-363f-8876-1999b0f5130f | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Soybean grains, at field        | 956b53b9-dd05-35ae-a072-69f1f6906290 | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Corn, whole plant, at   field        | 11256034-2355-3add-ade9-59983025dded | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Potato, whole plant, at   field        | 91663389-8cd1-3272-9f06-cdc87c8ce7d9 | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Rapeseed, whole plant,   at field        | 5abfba66-c3cb-38f2-8b01-9f566c5ab656 | Changed allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Rice, at field        | 4c6eed4c-5f5e-30c7-8948-956c79c4806d | Changed allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Wheat, at field        | d6439ada-877c-30ff-92b2-875e88b88141 | Changed allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Paper, freesheet,   uncoated, average production, at mill        | 732a5578-1750-3738-b0f2-607106574358 | Changed allocation from 'None' to 'Physical' based on general   description. |
+| FY24.Q4.01 | Process | Edit | Paper, freesheet,   uncoated, average production, at mill        | 732a5578-1750-3738-b0f2-607106574358 | Changed   allocation from 'None' to 'Economic' and deleted year in name. |
+| FY24.Q4.01 | Process | Edit | Soy oil, refined, at   plant        | bc119cdf-7143-35e8-9adb-c3a92dc376b6 | Changed allocation from 'None' to 'Physical' based on underlying report   text. |
+| FY24.Q4.01 | Process | Edit | Paper, mechanical,   coated, average production, at mill        | 3fa61250-2a76-30f5-aa5e-267f99ca3ee5 | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Paper, bag and sack,   unbleached kraft, average production, at mill        | f9cf891e-fd8c-304c-9707-4a7e390b9e75 | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Pulp, kraft market,   bleached, average production, at mill        | cbf4023b-71f7-36b7-8c45-ea43bc2f108c | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Paper, freesheet,   coated, average production, at mill        | 51cb18c8-eb65-36b7-a20a-bc1ed819ff88 | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Vacuum infusion, rigid   composites part, at plant | 01152bc2-5e31-3b8c-a40f-42289905c771 | Changed 'Composite scrap, from composites vacuum infusion, at plant'   output to 'Disposal composit scrap, to unspecified treatment' to eliminate   allocation issues.  |
+| FY24.Q4.01 | Process | Edit | Steel; cold rolled coil,   at plant        | cc886340-1e9e-40fc-8bae-87ea661f00c7 | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Steel; hot-dip   galvanised coil, at plant        | dcfd311d-d8be-4c39-bd16-a5bd0dd9eec8 | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Aluminum, cold rolling,   at plant        | 2b196386-eb1a-352a-aeda-4d003144f6df | Changed water exchanges to 'Emissions'. |
+| FY24.Q4.01 | Process | Edit | Steel; pickled hot   rolled coil, at plant        | 137b2f94-e29e-4870-a2c2-20dafd441f1d | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Steel, stainless 304,   scrap        | 34897ebd-aa3d-347c-91ee-876c3f835fdb | Changed water exchanges to 'Emissions'. |
+| FY24.Q4.01 | Process | Edit | Precision sand casting,   aluminum        | f61ecd3b-fdba-3739-8051-1d4bb0c2d98e | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Steel, stainless 304,   flat rolled coil        | 49f5324b-fc33-36e9-b5af-3c80d73492bd | Changed water exchanges to 'Emissions'. |
+| FY24.Q4.01 | Process | Edit | Steel; sections, at   plant        | 1b8709a5-5df4-4c52-85e4-dd6e7ed8deba | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Aluminum, secondary   ingot, at plant        | bcc68f88-debb-3fc3-93ee-5ceadcef0b14 | Changed water exchanges to 'Emissions'. |
+| FY24.Q4.01 | Process | Edit | Steel, cold-formed studs   and track, at plant        | 2250f2f2-7faa-3307-9534-ca78b371b4dd | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Semi-permanent mold   (SPM) casting, aluminum        | ab2436bc-97db-3154-898e-2c49ca4b698e | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Steel; hot rolled coil,   at plant        | a591c53f-ce67-41da-b0c1-65b6d91a1a43 | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Steel;   plate, at plant        | f2ddc783-1192-43c8-aa84-938af62d8328 | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Steel, stainless 304,   quarto plate        | 8560388b-7ea1-38b7-befc-fd25d5deb450 | Changed water exchanges to 'Emissions'. |
+| FY24.Q4.01 | Process | Edit | Aluminum, extrusion, at   plant        | 77fe2197-8861-3569-8d85-07151789b1e7 | Changed  water product exchanges to 'Emissions'. |
+| FY24.Q4.01 | Process | Edit | Aluminum, hot rolling,   at plant        | 381d3e3d-29ae-3101-a95b-56a4cec08486 | Added uncertainty to water exchanges. |
+| FY24.Q4.01 | Process | Edit | Lost foam casting,   aluminum        | a8c3ad24-992e-31e0-9e18-fdf0280875df | Changed   allocation from 'None' to 'Economic'. |
+| FY24.Q4.01 | Process | Edit | Aluminum, primary ingot,   at plant        | 99963138-ddf9-3b32-9e93-69593d76cb08 | Changed water exchanges to 'Emissions'. |
+| FY24.Q4.01 | Flows | Delete | Various | Various | Deleted   unused water product flows. |
+| FY24.Q4.01 | Flow | Edit | Distillers dried grains   with solubles        |                                 0a61808a-df04-3ec0-8c2b-93d4f5cf9fbf                                          | Moved to 'Cutoffs' folder. |
+| FY24.Q4.01 | Process | Edit | Aluminum, primary ingot,   at plant        | 99963138-ddf9-3b32-9e93-69593d76cb08 | Changed to a system process. |
+| FY24.Q4.01 | Processes | Edit | Electricity, at grid        | ab7f18b8-9e1b-4efc-a690-5d9ffe6e0cc1 | Updated   china grid mix from 2018 to 2022 |
+| FY24.Q4.01 | Process | Add | Electricity, at grid        | 81ab92da-bf0e-4b32-9ba8-404854a9b8bb | Added   DRC grid mix |
+| FY24.Q4.01 | Flows | Edit | Electricity, at grid        |                                 5f9e4330-20e4-4f3f-94c6-f8fedf7b5ff5                                          | Removed   flow location from electricity, at grid |
+| FY24.Q4.01 | Process | Edit | Solid oxide electrolysis   stack; 150 kW, at plant        | fea93709-0327-4eb4-b705-aa4db0f55cdf | Changed   emission input to resource to correct negative results |
+| FY24.Q4.01 | Process | Edit | Electricity, at cogen,   for natural gas turbine        | e6586e69-95a4-3396-a934-f379fbdd28f4 | Fixed   missing exchange and changed location. |
+| FY24.Q4.01 | Flows | Edit | Various | Various | Moved 'Benzenes, alkylated, unspecified' and 'Dissolved Organic Matter'   to new 'non-FEDEFL' category. |
+| FY24.Q4.01 | Flows | Delete | Various | Various | Mapped various non-FEDEFL flows to FEDEFEL.  |
+| FY24.Q4.01 | Processes | Edit | Various | Various | Updated descriptions of processes to ensure that flow categorization   changes were captured. |
+| FY24.Q4.01 | Process | Add | Cobalt ore;   underground/open-pit mining; at mine        | 4fd964ba-76be-4099-8d94-9379678f6eb2 | Added new process from Argonne National Laboratory |
+| FY24.Q4.01 | Process | Add | Cobalt sulfate; at plant        | 16f46b37-1817-4cd7-87c4-fecdc5a0e1c8 | Added new process from Argonne National Laboratory |
+| FY24.Q4.01 | Process | Add | Crude cobalt hydroxide   production; at plant        | 2fb426d1-2476-4400-b942-940f65699e87 | Added new process from Argonne National Laboratory |
+| FY24.Q4.01 | Process | Edit | Sulfur, at plant | dfa7acbc-4a41-3329-951d-b6cde899c91e | Changed 'Recovered energy' to 'Natural gas, combusted in industrial   boiler' avoided product. |
+| FY24.Q4.01 | Process | Edit | Sulfuric acid, at plant        | 1b6afe73-a064-33a3-87b0-265ae10851e9 | Changed 'Recovered energy' to 'Natural gas, combusted in industrial   boiler' avoided product. |
+| FY24.Q4.01 | Process | Edit | Polyethylene   terephthalate, PET, virgin resin, at plant, kg        | 2b2f738d-2044-462f-ba56-5112ee683cb6 | Changed 'Recovered energy, for Polyethylene terephthalate (PET) virgin   resin' to 'Natural gas, combusted in industrial boiler' avoided product. |
+| FY24.Q4.01 | Flows | Delete | Various | Various | Deleted   unused recovered energy flows |
+| FY24.Q4.01 | Process | Edit | Ethanol, denatured,   forest residues, thermochem        | d9cadd89-4203-375a-903a-63197cd29c6a | Changed   quantitative reference from 'Mixed Alcogols, thermochemical process' to   'Ethanol, denatured, forest residues, thermochem'. |
+| FY24.Q4.01 | Process | Edit | Unsaturated polyester,   UPR, resin, at plant | 91c096d9-987d-34c6-90c0-3c672b467086 | Set to economic allocation. |
+| FY24.Q4.01 | Flows | Delete | Electricity from hydro |  | Deleted 'Electricity from hydro' cutoff flow after mapping it to other   existing hydro flow. |
+| FY24.Q4.01 | Flows | Delete | Various | Various | Deleted 'Glass fiber' and 'Glass fiber, at plant - US' flows after   mapping them to existing glass fiber flow/process. |
+| FY24.Q4.01 | Flows | Delete | Various | Various | Deleted 'Chlorine, production mix, at plant - United States', 'Sodium   chloride, brine solution, at plant', 'Sodium hydroxide, production mix, at   plant - United States' flows. Mapped to appropriate flows prior to deletion. |
+| FY24.Q4.01 | Process | Edit | Chlorine; chlor-alkali   average, membrane cell; at plant        | a3e150d0-770e-4e2a-9b19-f7daa8cda38b | Various adjustments to exchange tables. Fixed electricity exchange error. |
+| FY24.Q4.01 | Flows | Delete | Various | Various | Deleted orphan flows. |
+| FY24.Q4.01 | Processes | Edit | Various | Various | Added avoided product providers. |
+| FY24.Q4.01 | Flow | Edit | Energy, fossil,   unspecified |                                 46dc4693-2f24-39d2-b69f-dd059737fd5e                                          | Recategorized as 'Cutoff'. |
+| FY24.Q4.01 | Flow | Edit | Nuclear energy |                                 b2e39287-f6e2-360a-86d0-5889da60aea1                                          | Recategorized as 'Cutoff'. |
+| FY24.Q4.01 | Process | Edit | Fuels, burned at   uncoated mechanical paper, average production, at mill | a336a2a7-c6a8-38a5-81e3-2709095fd85f | Added default providers. |
+| FY24.Q4.01 | Process | Edit | Natural soda ash (Sodium   carbonate), at plant | 0d95cc8b-a9a0-3630-a760-1ab4d88257d8 | Added default providers. |
+| FY24.Q4.01 | Flow | Edit | Seed corn |                                 76ef2ccc-77a4-3e25-aa26-5df2190aa565                                          | Recategorized as 'Cutoff'. |
+| FY24.Q4.01 | Processes | Edit | Various | Various | Slight adjustments to process inventories whose exchange flows were   affected by recategorization. |
+| FY24.Q4.01 | Processes & Flows | Edit | Various | Various | Mapped polurethane cutoff flows to existing processes and deleted them.   Changed in all processes drawing on the original cutoff flows. |
+| FY24.Q4.01 | Process | Edit | Solid strip and plank   flooring, hardwood, E        | 027d304f-00e4-380e-9bba-4e6bde2d685a | Changed   hardwood allocation factor from wood fuel to hardwood. Slight changes to   other exchanges in inventory. |
+| FY24.Q4.01 | Process | Edit | Zinc, sheet | 7a0942f9-5fe3-3a78-aff1-9399fea7c14b | Applied allocation factor to water flow in 'Zinc, sheet' process. |
+| FY24.Q4.01 | Flow | Edit | Renewable fuels        | f8281b54-534a-3ad5-b7ec-cc185ab4b9ff | Recategorized 'Renewable fuels' flow as 'Cutoff'. |
+| FY24.Q4.01 | Process | Edit | Electricity, at cogen,   for natural gas turbine | e6586e69-95a4-3396-a934-f379fbdd28f4 | Corrected   'Electricity, at cogen, for nat gas turbine' input flow and unit were   previously incorrect |
+| FY24.Q4.01 | Processes | Edit | Various | Various | Added providers to exchanges which were originally missing them. |
+| FY24.Q4.01 | Processes | Edit & Delete | Various | Various | Edited allocation values & consolidated duplicate electricity input   and avoided product flows for 'Containerboard, average production, at mill -   United States'. Deleted unused 'Sold electricity, from industry-average   containerboard - United States' flow. |
+| FY24.Q4.01 | Process | Edit | Electricity, at grid -   China | ab7f18b8-9e1b-4efc-a690-5d9ffe6e0cc1 | Revised amount and valid from/to values. |
+| FY24.Q4.01 | Process | Edit | Electricity, at grid -   Democratic Republic of the Congo | 81ab92da-bf0e-4b32-9ba8-404854a9b8bb | Revised amount values. |
+| FY24.Q4.01 | Flow | Edit | Energy, output, from   gasoline | 68c4b3e8-492b-3327-b39f-53005c9f235a | Recategorized 'Energy, output, from gasoline' as 'Cutoff'. |
+| FY24.Q4.01 | Flow | Edit | Natural gas, production   mixture, to energy use | 1a34bf95-f897-4af9-b70c-368fce9e41d6 | Added energy conversion for 'Natural gas, production mixture, to energy   use' flow. |
+| FY24.Q4.01 | Process | Edit | Ethanol, 85%, at blending terminal, 2022 | 64c379de-b24a-36d0-9170-d61d9d9d7278 | Updated description and changed 'Energy output, from gasoline' exchange   category from 3251 to 'Cutoff'. |
+| FY24.Q4.01 | Process | Edit | Carbon monoxide, at plant | e0368d96-44a3-3628-8220-e6ae975b0931 | Replaced 'Energy, fossil, unspecified' exchange with 'Natural gas' elementary flow |
+| FY24.Q4.01 | Process | Edit | Hydrochloric acid, without water, in 30% solution state, at plant | 9ee66dd5-dcc9-3e94-9da3-3a7cc6cddeb3 | Replaced 'Energy, fossil, unspecified' exchange with 'Natural gas'   elementary flow |
+| FY24.Q4.01 | Process | Edit | Nitrogen fertilizer, production mix, at plant | dacaeae9-aeed-3366-912d-6a31de09eef9 | Replaced 'Energy, fossil, unspecified' exchange with 'Natural gas'   elementary flow |
+| FY24.Q4.01 | Flow | Delete | Energy, fossil, unspecified |  | Deleted cutoff flow and replaced with natural gas elementary flow which   is captured in LCIA methods |
+| FY24.Q4.01 | Process | Edit | Polypropylene, PP, virgin resin, at plant | 2e8facf6-46aa-4ddb-95de-a4e2a00eb2bb | Added provider to 'Natural gas, production mixture, at processing'   avoided product |
+| FY24.Q4.01 | Processes & Flows | Edit | Various | Various | Recategorized various wood-related flows as 'Cutoff'. Added 'Forestry and   Forest Products' tag to wood-related flows which are not cutoff. Duplicate   plywood flow was mapped and deleted |
+| FY24.Q4.01 | Processes | Edit | Various | Various | Made slight changes to processes that were affected by flow   recategorization to get the changes to register |
+| FY24.Q4.01 | Process | Edit | Wood Combusted, at   boiler, at cellulosic fiberboard mill | 106bcee8-0d5f-30c6-ac98-fa6dab41d4d1 | Fixed uncertainty distribution maximum values that did not align with the   amount |
+| FY24.Q4.01 | Process | Edit | Ethanol, denatured,   forest residues, thermochem | d9cadd89-4203-375a-903a-63197cd29c6a | Corrected allocation values and adjusted to use LHV instead of HHV.   Updated description acccordingly. Added energy flow property factors to   upstream fuel flows. |
+| FY24.Q4.01 | Flow | Edit | Various | Various | Added energy flow properties to multiple petroleum refining outputs |
+| FY24.Q4.01 | Flow | Delete | Copper (I) sufide | cc292d8b-88d8-30f8-9370-81e4f43082c9 | Replaced flow with newer version |
+| FY24.Q4.01 | Flow | Add | Copper (I) sulfide | 0e573253-e99b-3085-99a3-3ca38f8b4ca8 | Replaced flow with newer version |
+| FY24.Q4.01 | Process | Edit | Polyol ether, for rigid foam polyurethane production, at plant | 1d7ac207-310f-3366-8f9c-e951b61d31ce | Removed manganese-55 exchange due to deletion of this flow from FEDEFL |
+| FY24.Q4.01 | Flow | Delete | Manganese-55 | 775fe780-6f20-3133-bca4-dc7539210a11 | Deleted Manganese-55 flow due to change in FEDEFL |
 | FY24.Q3.01 | Process | Edit | Electricity, natural gas, at power plant | fa379f16-c09a-4e70-8595-45c69162215c | Removed provider that was assigned to the quantitative reference flow |
 | FY24.Q3.01 | Process | Edit | Natural gas, combusted in industrial equipment - Northern America | b355f122-dc4e-4224-aafa-d43c3b57db7b | Removed provider that was assigned to the quantitative reference flow |
 | FY24.Q3.01 | Process | Edit | Natural gas, combusted in industrial boiler | f347daea-82be-4e62-8872-a0dc0ca24ca3 | Removed provider that was assigned to the quantitative reference flow |
